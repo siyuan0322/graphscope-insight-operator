@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- insight_v1alpha1_graphscopeinsight.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples

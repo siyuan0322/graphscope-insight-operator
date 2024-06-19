@@ -1,0 +1,6 @@
+Kubernetes Operator for GraphScope Insight.
+
+Generated using [operator-sdk](https://sdk.operatorframework.io/docs/building-operators/helm/).
+
+It's basically a wrapper of the existing helm charts, created following this [tutorial](https://sdk.operatorframework.io/docs/building-operators/helm/tutorial/),
+then made some modification to the `role.yaml`.

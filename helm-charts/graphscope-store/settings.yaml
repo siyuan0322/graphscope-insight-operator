@@ -1,0 +1,25 @@
+image:
+  registry: ""
+  tag: latest
+
+distributed:
+  enabled: true
+backup:
+  enabled: false 
+
+store:
+  replicaCount: 4
+
+otel:
+  enabled: false
+
+uptrace:
+  enabled: true
+  service: "up2-uptrace.uptrace2"
+  token: "project2_secret_token"
+
+# store:
+#   persistence:
+#     existingClaim: "test-pv"
+
+collectStatistics: true

@@ -1,0 +1,6 @@
+# Use the 'create api' subcommand to add watches to this file.
+- group: insight.graphscope.io
+  version: v1alpha1
+  kind: GraphScopeInsight
+  chart: helm-charts/graphscope-store
+#+kubebuilder:scaffold:watch
